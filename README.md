@@ -2,6 +2,8 @@
 
 ### This project is a replica of the popular e-commerce website Flipkart, built using React, Chakra UI, and react-slick.
 
+## Explore Live - <a target="_blank" href="https://flipkart-com.vercel.app/">Go Live</a>
+
 ## Features
 
 - Home page layout similar to the real Flipkart website.
@@ -22,6 +24,6 @@
 
 ## Contributing
 
-#### Contributions are welcome! Do open an issue or create a pull request to contribute.
+#### Contributions are welcome! Please open an issue or create a pull request to contribute.
 
 # By Mahin Malek ⭐️
