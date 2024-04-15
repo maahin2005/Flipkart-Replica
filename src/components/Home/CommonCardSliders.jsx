@@ -56,8 +56,9 @@ function CommonCardSliders({ ImageSrcs, heading }) {
               p={{ base: 2, md: 5 }}
               borderColor="gray.200"
               borderRadius={3}
+              height={"350px"}
             >
-              <Image key={index} src={el.img} alt={el} />
+              <Image key={index} src={el.img} alt={el} margin="auto" />
               <Text mt={3}>{el.head}</Text>
               <Text fontWeight={600}>{el.price}</Text>
             </Box>

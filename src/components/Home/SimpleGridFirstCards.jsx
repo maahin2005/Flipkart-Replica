@@ -1,16 +1,7 @@
 import { Image, SimpleGrid } from "@chakra-ui/react";
 import React from "react";
 
-function SimpleGridFirstCards() {
-  const dataArr = [
-    "https://rukminim2.flixcart.com/fk-p-flap/520/280/image/4d24acf7af61c8cb.jpg?q=20",
-    "https://rukminim2.flixcart.com/fk-p-flap/520/280/image/4d24acf7af61c8cb.jpg?q=20",
-    "https://rukminim2.flixcart.com/fk-p-flap/520/280/image/4d24acf7af61c8cb.jpg?q=20",
-    "https://rukminim2.flixcart.com/fk-p-flap/520/280/image/4d24acf7af61c8cb.jpg?q=20",
-    "https://rukminim2.flixcart.com/fk-p-flap/520/280/image/4d24acf7af61c8cb.jpg?q=20",
-    "https://rukminim2.flixcart.com/fk-p-flap/520/280/image/4d24acf7af61c8cb.jpg?q=20",
-  ];
-
+function SimpleGridFirstCards({ dataArr }) {
   return (
     <SimpleGrid
       columns={3}

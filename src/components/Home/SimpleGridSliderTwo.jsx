@@ -3,20 +3,7 @@ import React from "react";
 
 import Slider from "react-slick";
 
-function SimpleGridSliderTwo() {
-  let arr = [
-    "https://rukminim2.flixcart.com/fk-p-flap/450/280/image/adbdbdc36d361948.png?q=20",
-    "https://rukminim2.flixcart.com/fk-p-flap/450/280/image/adbdbdc36d361948.png?q=20",
-    "https://rukminim2.flixcart.com/fk-p-flap/450/280/image/adbdbdc36d361948.png?q=20",
-    "https://rukminim2.flixcart.com/fk-p-flap/450/280/image/adbdbdc36d361948.png?q=20",
-  ];
-
-  let simpleImageArr = [
-    "https://rukminim2.flixcart.com/fk-p-flap/520/280/image/5f2f515a4cf8eee2.jpg?q=20",
-    "https://rukminim2.flixcart.com/fk-p-flap/520/280/image/5f2f515a4cf8eee2.jpg?q=20",
-    "https://rukminim2.flixcart.com/fk-p-flap/520/280/image/5f2f515a4cf8eee2.jpg?q=20",
-  ];
-
+function SimpleGridSliderTwo({ arr, simpleImageArr }) {
   const settings = {
     dots: false,
     infinite: true,

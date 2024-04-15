@@ -43,7 +43,7 @@ function Footer() {
       <Flex gap={2}>
         <Image src={iconSrc} />
 
-        <Text>{text}</Text>
+        <Text mb={0}>{text}</Text>
       </Flex>
     );
   };
@@ -181,7 +181,7 @@ function Footer() {
         />
 
         <Flex>
-          <Text>© 2007-2024 Flipkart.com</Text>
+          <Text mb={0}>© 2007-2024 Flipkart.com</Text>
         </Flex>
         <Image src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-c454fb.svg" />
       </Flex>

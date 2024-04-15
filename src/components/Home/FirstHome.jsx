@@ -36,7 +36,7 @@ function FirstHome() {
   };
   const handleNestedMouseLeave = () => {
     setNestedOpenDropdown(null);
-    setIsHover(false);
+    setIsHover(openDropdown ? true : false);
   };
 
   const SimpleImageCarts = ({ imgSrc, heading, isDropdown, index }) => {
@@ -62,9 +62,10 @@ function FirstHome() {
 
   const ImageCardsWithDropDown = ({ imgSrc, heading, index, arr_data }) => {
     const isDropdownOpen = openDropdown === index;
+    const newHover = isHover && nestedOpenDropdown === index;
 
     return (
-      <Menu isOpen={isDropdownOpen} onClose={handleMouseLeave}>
+      <Menu isOpen={isDropdownOpen || newHover} onClose={handleMouseLeave}>
         <MenuButton
           onMouseEnter={() => {
             handleMouseEnter(index);
@@ -91,9 +92,13 @@ function FirstHome() {
                 key={i}
                 onMouseEnter={() => handleNestedMouseEnter(index)}
                 onMouseLeave={handleNestedMouseLeave}
+                pr={0}
               >
                 <Menu>
                   <MenuButton
+                    p={1}
+                    width={"100%"}
+                    textAlign={"left"}
                     onMouseEnter={() => handleNestedMouseEnter(index)}
                     onMouseLeave={handleNestedMouseLeave}
                   >

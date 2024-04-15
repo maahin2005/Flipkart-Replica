@@ -7,22 +7,22 @@ export const sec1 = {
       greenTitle: "Min. 70% Off",
     },
     {
-      img: "https://rukminim2.flixcart.com/image/240/240/xif0q/shoe/v/p/d/10-coment-phylon-10-hrx-by-hrithik-roshan-phylon-sky-white-original-imagp7tzzumdrqkt.jpeg?q=90",
+      img: "https://rukminim2.flixcart.com/image/240/240/xif0q/headphone/g/y/o/bbd-earbuds-m19-2022-newest-with-upto-15-hours-playback-13mm-original-imagk6p84uzfdgkf.jpeg?q=90",
 
-      title: "Men’s Sports Shoes",
+      title: "True Wireless",
+      greenTitle: "Min. 50% Off",
+    },
+    {
+      img: "https://rukminim2.flixcart.com/image/240/240/xif0q/smartwatch/z/z/8/-original-imagtps8ryqqhaja.jpeg?q=90",
+
+      title: "Smart Watches",
       greenTitle: "Min. 70% Off",
     },
     {
-      img: "https://rukminim2.flixcart.com/image/240/240/xif0q/shoe/v/p/d/10-coment-phylon-10-hrx-by-hrithik-roshan-phylon-sky-white-original-imagp7tzzumdrqkt.jpeg?q=90",
+      img: "https://rukminim2.flixcart.com/image/240/240/kjabs7k0-0/wall-clock/a/g/e/handpainted-peacock-wall-clock-wc-331-analog-divinecrafts-original-imafyvmxgyhdyefg.jpeg?q=90",
 
-      title: "Men’s Sports Shoes",
-      greenTitle: "Min. 70% Off",
-    },
-    {
-      img: "https://rukminim2.flixcart.com/image/240/240/xif0q/shoe/v/p/d/10-coment-phylon-10-hrx-by-hrithik-roshan-phylon-sky-white-original-imagp7tzzumdrqkt.jpeg?q=90",
-
-      title: "Men’s Sports Shoes",
-      greenTitle: "Min. 70% Off",
+      title: "Wall Clocks",
+      greenTitle: "New Collections",
     },
   ],
   sideImg:
